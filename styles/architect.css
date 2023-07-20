@@ -99,6 +99,11 @@ main{
     font-size: 2.8rem;
     font-weight: 700;
 }
+.facts-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
 /* responsive styles */
 /* mobile devices */
 @media  screen and (max-width: 576px)  {
