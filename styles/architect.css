@@ -3,14 +3,21 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins&family=Work+Sans:wght@800&display=swap" rel="stylesheet">
 }
+/* shared style */
 {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+.btn-primary{
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
 .header{
     background: rgba(255, 144, 14, 0.10);;
-    padding: 50px;
+    padding: 50px 240px;
+    width: 70%;
 }
 nav{
     display: flex;
@@ -34,4 +41,21 @@ nav li{
 nav li a{
     text-decoration: none;
     color: #424242;
+}
+/* banner styles */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+
+}
+.banner-description{
+    color: #727272;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
